@@ -288,6 +288,10 @@ section {
   background-color: #ffffff;
 }
 
+footer {
+  background-color: #767676;
+}
+
 .wrapper {
   width: 100%;
 }
@@ -363,12 +367,19 @@ section {
 /* Content styles */
 
 .content {
+  max-width: 980px;
   display: flex;
   justify-content: space-between;
+  margin: 0 auto 195px;
 }
 
 .content__news {
   background-color: #767676;
+  padding: 20px 51px 33px 34px;
+}
+
+.content__news-list {
+  margin-bottom: 85px;
 }
 
 .content__news-name {
@@ -382,7 +393,7 @@ section {
 .content__news-item {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  margin-bottom: 30px;
 }
 
 .content__news-item i {
@@ -395,11 +406,124 @@ section {
 }
 
 .content__news-item span {
-
+  font-size: 14px;
+  color: #ffffff;
 }
+
+.content__news-link {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+}
+
+.content__news-link a {
+  text-decoration: none;
+  font-size: 14px;
+  color: #ffffff;
+  font-weight: 400;
+  cursor: pointer;
+}
+
+.content__news-link a:hover {
+  text-decoration: underline;
+}
+
+/* Content info styles */
 
 .content__info {
-
+  display: flex;
+  flex-direction: column;
+  max-width: 570px;
 }
 
+.content__info h1 {
+  padding: 0;
+  color: #767676;
+  font-size: 33px;
+  line-height: 22px;
+}
+
+.content__info p {
+  padding-bottom: 34px;
+  font-size: 16px;
+  color: #767676;
+}
+
+.content__info h2 {
+  margin: 0;
+  color: #767676;
+}
+
+.content__info-two_col {
+  display: flex;
+  flex-direction: row;
+  gap: 35px;
+}
+
+.info-item {
+  padding-top: 34px;
+}
+
+.info-item h4 {
+  color: #767676;
+}
+
+/* Footer styles */
+
+.footer {
+  display: flex;
+  width: 980px;
+  margin: auto;
+  padding: 50px
+}
+
+.footer-copyright {
+  margin-right: 137px;
+  color: #ffffff;
+}
+
+.footer-links {
+  display: flex;
+  margin-right: 280px;
+}
+
+.footer-links ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-links ul li {
+  padding: 0 15px;
+}
+
+.footer-links ul li a {
+  text-decoration: none;
+  font-size: 14px;
+  color: #ffffff;
+  font-weight: 400;
+  cursor: pointer;
+}
+
+.footer-links ul li a:hover {
+  text-decoration: underline;
+}
+
+.footer-link {
+  color: white;
+}
+
+.footer-link a {
+  text-decoration: none;
+  font-size: 14px;
+  color: #ffffff;
+  font-weight: 400;
+  cursor: pointer;
+}
+
+.footer-link a:hover {
+  text-decoration: underline;
+}
 
