@@ -269,6 +269,10 @@ body {
   box-sizing: border-box;
 
   font-family: "Open Sans", serif;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 p {
@@ -310,7 +314,8 @@ footer {
   align-items: center;
 }
 
-.header__text {
+.header__text,
+.header__text span{
   font-size: 17px;
   letter-spacing: 0px;
   line-height: 22px;
